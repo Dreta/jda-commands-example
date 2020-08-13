@@ -37,8 +37,10 @@ public class Main {
         jda.awaitReady();
         Command.init(Options.builder()
                 .guild(jda.getGuildById("740517639419461673"))  // That's the "Dreta Bot Test" guild - not open to the public
-                .prefix("/")
+                .prefix("!")
+                .errorEmbed(true)  // Because embeds look nice
                 .build());
         new PingCommand();
+        new LanguageCommand();
     }
 }
