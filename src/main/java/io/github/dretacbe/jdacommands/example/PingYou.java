@@ -1,7 +1,7 @@
 /*
  * JDA-Commands allows you to easily create commands in JDA.
  * This is the example Discord bot attached with JDA-Commands.
- * Copyright (C) 2020 Dreta https://dretacbe.github.io
+ * Copyright (C) 2020 Dreta https://dreta.github.io
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
